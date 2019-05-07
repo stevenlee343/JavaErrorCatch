@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScoreTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ScoreFormatException {
 		Scanner scanner = new Scanner(System.in);
 		
 	try {
@@ -17,7 +17,7 @@ public class ScoreTest {
 		System.out.println((math.value + english)/2);
 	}
 	catch(NumberFormatException e) {
-		System.out.println("請輸數字");
+		System.out.println("嚙請選蕭あr");
 		e.printStackTrace();
 		}
 	}
